@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:1300px)"
+      href="CSS/phone1.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width:827px)"
+      href="CSS/phone2.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Sumit Agnihotri</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="images/icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="loader"></div>
+    <div id="mainBody">
+    <header></header>
+
+    <nav>
+      <!-- <a href="#"><img src="images/nameLogo.png" alt="" id="nameLogo" /></a> -->
+      <div id="nameLogo">
+        <a href="#"
+          ><h1><span>S</span>UMIT <span>A</span>GNIHOTRI</h1></a
+        >
+      </div>
+      <ul id="nav-items">
+        <li onclick="closeMenu()"><a href="#">Home</a></li>
+        <li onclick="closeMenu()"><a href="#about">About</a></li>
+        <li onclick="closeMenu()"><a href="#skills">Skills</a></li>
+        <li onclick="closeMenu()"><a href="#skills">Hobbies</a></li>
+        <li onclick="closeMenu()"><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="menuIcon">
+        <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+      </div>
+    </nav>
+    <section id="intro">
+    
+      <div>
+        <h1 id="helloIntro">Hello,<span></span></h1>
+        <h1 id="myIntro">My Name is <span></span></h1>
+        <h1 id="nameIntro">Sumit Agnihotri<span></span></h1>
+      </div>
+    
+      <a
+        target="_blank"
+        href="https://www.linkedin.com/in/sumit-agnihotri-7b7281216/"
+        >LinkedIn
+      </a>
+    </section>
+    <div class="main">
+      <section id="about">
+        <div id="about_phone">
+          <h1>ABOUT <span>ME</span></h1>
+          <h3>Front End Developer</h3>
+        </div>
+        <div id="about-pic">
+          <div id="about-pic-border">
+            <img src="images/profile.JPG" alt="" />
+          </div>
+        </div>
+        <div id="about-content">
+          <h1>ABOUT <span>ME</span></h1>
+          <h3>Front-end Developer</h3>
+          <p>
+            Hello! I'm Sumit, a student at ABES Gaziabad, currently focused on frontend development. With a
+            strong foundation in programming languages such as C++ and Python,
+            I've been honing my skills to create engaging and responsive user
+            interfaces.
+            Balancing my passion for technology and sports has taught me
+            valuable lessons in discipline, teamwork, and perseverance. I am
+            always eager to connect with fellow tech enthusiasts and explore new
+            opportunities.
+          </p>
+        </div>
+      </section>
+      <section id="skills">
+        <h1>SK<span>I</span>LLS</h1>
+        <div id="skills-content">
+          <div id="skills-items">
+            <img id="react" src="images/react.png" />
+            <h2>REACT</h2>
+            <p>
+              I can create interactive and functional webpages using React, leveraging its component-based design. Additionally, I have a solid understanding of Node.js, enabling me to build backend services and APIs effectively.
+            </p>
+          </div>
+          <div id="skills-items">
+            <img id="cpp" src="images/c++.png" />
+            <h2>C++</h2>
+            <p>
+              I have strong skills in C++ programming and am continuously enhancing my expertise in Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA).            </p>
+          </div>
+          <div id="skills-items">
+            <img id="python" src="images/python.png" />
+            <h2>PYTHON</h2>
+            <p>
+              
+I have a strong foundation in Python programming. Additionally, I am proficient in using the Flask library to develop backend services and build dynamic web applications.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <h1>HO<span>BB</span>IES</h1>
+        <div id="skills-content">
+          <div id="skills-itemss">
+            <div class="hob1">
+              <img id="react" src="" />
+              <h2>Listening Music</h2>
+            </div>    
+          </div>
+          <div id="skills-itemss">
+            <div class="hob2">
+              <img id="react" src="" />
+              <h2>Playing Cricket</h2>
+            </div> 
+          </div>
+          <div id="skills-itemss">
+            <div class="hob3">
+              <img id="react" src="" />
+              <h2>Watching Movies</h2>
+            </div>  
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <h1>CONTACT <span>ME</span></h1>
+        <div id="cntbox">
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input
+              type="hidden"
+              name="access_key"
+              value="a91082db-640f-4ce5-9593-491e861c557c"
+            />
+            <input
+              type="text"
+              name="name"
+              id="cntName"
+              placeholder="Your Name"
+              required
+            />
+            <input
+              type="text"
+              name="phone"
+              placeholder="Your Phone Number"
+              id="cntPhone"
+              required
+            />
+            <input
+              type="text"
+              name="email"
+              placeholder="Your Email"
+              id="cntEmail"
+              required
+            />
+            <textarea
+              name="message"
+              id=""
+              placeholder="Your Message"
+              rows="5"
+              cols="8"
+              id="cntMsg"
+              required
+            ></textarea>
+            <button type="submit">SUBMIT</button>
+          </form>
+        </div>
+      </section>
+      <footer>
+        <h1><span>S</span>UMIT <span>A</span>GNIHOTRI</h1>
+        <h3>Connect with me on</h3>
+        <div id="links">
+          <a
+            target="_blank"
+            href="https://www.instagram.com/sumit_agnihotrri/?utm_source=ig_web_button_share_sheet"
+            ><img id="insta" src="images/insta.png" alt="" title="Instagram"
+          /></a>
+          <a
+            target="_blank"
+            href="https://github.com/sumit7267"
+            ><img id="github" src="images/github.png" alt="" title="Github"
+          /></a>
+        </div>
+        <p>Copyright &copy; 2025 Sumit Agnihotri. All rights reserved</p>
+      </footer>
+    </div>
+    <script src="app.js"></script>
+  </div>
+  </body>
+</html>
